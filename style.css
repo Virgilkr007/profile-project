@@ -178,3 +178,66 @@ li {
 .submit-button:hover {
   background-color: #555;
 }
+.page {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  line-height: 1.6;
+  color: #333;
+  background: #fafafa;
+}
+
+.dashboard-header {
+  margin-bottom: 20px;
+}
+
+.name {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #1a1a1a;
+}
+
+.detail {
+  margin: 4px 0;
+}
+
+.section-heading {
+  font-size: 1.3em;
+  border-bottom: 2px solid #b71c1c;
+  padding-bottom: 6px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  color: #1a1a1a;
+}
+
+.courses-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.courses-table th,
+.courses-table td {
+  text-align: left;
+  padding: 10px 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.courses-table th {
+  background-color: #333;
+  color: #fff;
+}
+
+.courses-table tbody tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+.courses-table tfoot td {
+  border-top: 2px solid #333;
+  border-bottom: none;
+  background-color: #f8eec9;
+}
+
+.academic-summary p {
+  margin: 12px 0;
+}
